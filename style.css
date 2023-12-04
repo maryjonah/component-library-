@@ -25,5 +25,11 @@ main {
 }
 .component--title {
     font-family: "Permanent Marker", sans-serif;
+    font-size: 2rem;
 }
 
+h3 {
+    font-family: "Permanent Marker", sans-serif;
+    font-size: 1.5rem;
+    margin-top: 0;
+}
