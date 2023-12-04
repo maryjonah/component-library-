@@ -1,0 +1,93 @@
+.banner {
+    padding: 7px 10px;
+    border: 1px solid black;
+    display: flex;
+    align-items: baseline;
+    gap: 7px;
+    background-color: #EFF6FF;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.banner--details {
+    font-size: 0.9rem;
+}
+
+.banner-details:focus {
+    border: none;
+}
+
+.banner--icon {
+    font-size: 20px;
+    align-self:first baseline;
+    color: #60A5FA;
+}
+
+.banner--details--title {
+    color: #1E40AF;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.banner--details--info {
+    color: #1C51B9;
+    margin-top: 10px;
+}
+
+/* BANNER STATUS */
+.banner-success {
+    background-color: #ECFDF5;
+}
+
+.banner-success .banner--icon {
+    color: #34D399;
+}
+
+.banner-success .banner--details--title {
+    color: #065F46;
+}
+
+.banner-success .banner--details--info {
+    color: #047857;
+}
+
+.banner-warning {
+    background-color: #FFFBEB;
+}
+
+.banner-warning .banner--icon {
+    color: #FBBF24;
+}
+
+.banner-warning .banner--details--title {
+    color: #92400E;
+}
+
+.banner-warning .banner--details--info {
+    color: #B45309;
+}
+
+
+.banner-error {
+    background-color: #FEF2F2;
+}
+
+.banner-error .banner--icon {
+    color: #F87171;
+}
+
+.banner-error .banner--details--title {
+    color: #92400E;
+}
+
+.banner-error .banner--details--info {
+    color: #B45309;
+}
+
+/*
+.banner-neutral {
+    color: # ;
+    background-color: # ;
+
+} */

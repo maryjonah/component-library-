@@ -20,6 +20,9 @@ main {
     margin-top: 0;
 }
 
+.component {
+    margin: 25px 0;
+}
 .component--title {
     font-family: "Permanent Marker", sans-serif;
 }

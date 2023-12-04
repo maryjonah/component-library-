@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import BadgeDemo from "./demo/BadgeDemo.jsx";
+import BannerDemo from './demo/BannerDemo.jsx';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         <h1 className="title">COMPONENT LIBRARY++</h1>
 
         <BadgeDemo />
+        <BannerDemo />
 
     </main>
   )
