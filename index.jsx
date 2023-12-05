@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import BadgeDemo from "./demo/BadgeDemo.jsx";
 import BannerDemo from './demo/BannerDemo.jsx';
+import CardsDemo from "./demo/CardDemo.jsx";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
 
         <BadgeDemo />
         <BannerDemo />
-
+        <CardsDemo />
     </main>
   )
 }
